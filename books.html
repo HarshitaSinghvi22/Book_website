@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Collection</title>
+    <style>
+    
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+        }
+
+        h1 {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            margin: 0;
+            font-size: 24px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            background-color: white;
+            box-shadow: 0 0 1000px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .book {
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            transition: transform 0.2s;
+        }
+
+        .book:hover {
+            transform: scale(1.05);
+        }
+
+        .book img {
+            max-width: 150px;
+            height: auto;
+            display: block;
+            margin: 0 auto 20px;
+            border-radius: 5px;
+        }
+
+        .book-title {
+            font-size: 1.5em;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+
+     
+        a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        
+        a:hover {
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h1>BOOK LIST </h1>
+
+    <div class="container">
+        <div class="book">
+            <img src="D:\SEM 5\Full Stack\Book website\verity-17.jpg" alt="Book Title 1">
+            <h2 class="book-title"><a href="Verity.html">Verity</a></h2>
+           
+        </div>
+
+        <div class="book">
+            <img src="D:\SEM 5\Full Stack\Book website\tohate.jpg" alt="Book Title 2">
+            <h2 class="book-title"><a href="ToHateAdamConnor.html">To Hate Adam Connor</a></h2>
+           
+        </div>
+
+        <div class="book">
+            <img src="D:\web development\9.jpeg" alt="Book Title 3">
+            <h2 class="book-title"><a href="SevenHusbandsOfEvelynHugo.html">Seven Husbands of Evelyn Hugo</a></h2>
+            
+        </div>
+    </div>
+</body>
+</html>
